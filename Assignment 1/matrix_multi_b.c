@@ -24,7 +24,7 @@ int main(){
             for(int k = 0; k < n;k++){
                 c[i][j] = c[i][j] + a[i][k]*b[k][j]; 
             }
-            printf("%d ", c[i][j]);
+            printf("%lld ", c[i][j]);
         }
         printf("\n");
     }
