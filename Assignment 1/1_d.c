@@ -15,7 +15,7 @@ int main(){
         series[i] = series[i-1] + series[i-2];
     }
     for(int i = 0; i <= n; i++){
-        printf("%d ", series[i]);
+        printf("%lld ", series[i]);
     }
     return 0;
 
